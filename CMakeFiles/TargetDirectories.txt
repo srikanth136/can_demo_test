@@ -1,0 +1,4 @@
+/home/vboxuser/src/coursework/CMakeFiles/candata.dir
+/home/vboxuser/src/coursework/CMakeFiles/main.dir
+/home/vboxuser/src/coursework/CMakeFiles/edit_cache.dir
+/home/vboxuser/src/coursework/CMakeFiles/rebuild_cache.dir
