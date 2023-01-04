@@ -140,7 +140,7 @@ int main()
             motor_q, back_electromagnetic_field_factor ,frontCurrent, rearCurrent);
             calculateCurrent (frontLeftWheelRPM, frontRightWheelRPM, rearLeftWheelRPM, rearRightWheelRPM, frontTorqueRequest, rearTorqueRequest, battery_voltage,
             motor_q, back_electromagnetic_field_factor ,frontCurrent, rearCurrent);
-            struct can_frame current_frame;
+            struct  can_frame current_frame;
             current_frame.can_id = CANDATA_MOTOR_CURRENT_FRAME_ID;
             current_frame.can_dlc = CANDATA_MOTOR_CURRENT_LENGTH;
             try

@@ -8,6 +8,8 @@
 #include<string>
 #include<thread>
 #include<vector>
+#include <linux/can.h>
+#include <linux/can/raw.h>
 #include "can_wrap.h"
 #include "candata.h"
 #include "can_wrap.hpp"
